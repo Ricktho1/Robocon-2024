@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<robot name="ABU_ROBOCON_24_ARENA_HARVEST" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<material name="silver">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+
+
+<material name="area1">
+  <color rgba="1 0.667 0.302 1.000"/>
+</material>
+
+<material name="area2">
+  <color rgba="0.314 0.62 0.184 1.000"/>
+</material>
+
+<material name="area3">
+  <color rgba="0.996 0.82 0.255 1.000"/>
+</material>
+
+<material name="water">
+  <color rgba="0.60 0.839 0.918 1.000"/>
+</material>
+
+<material name="fence_around_water">
+  <color rgba="1 0.667 0.302 1.000"/>
+</material>
+
+<material name="fence_overall">
+  <color rgba="0.62 0.635 0.635 1.000"/>
+</material>
+
+</robot>
