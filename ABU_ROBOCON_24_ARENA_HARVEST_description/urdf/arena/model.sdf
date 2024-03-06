@@ -7,7 +7,7 @@
         <mass>118034</mass>
         <inertia>
           <ixx>1.19343e+06</ixx>
-          <ixy>7.247e-05</ixy>
+          <ixy>7.247e-05</ixy>  
           <ixz>7.65e-06</ixz>
           <iyy>1.26501e+06</iyy>
           <iyz>0</iyz>
