@@ -5,5 +5,8 @@ nav stack error
 
 
 
-sudo apt-get install ros-noetic-tf2-sensor-msgs
+"sudo apt-get install ros-noetic-tf2-sensor-msgs"
 for tf2 error 
+
+
+"sudo apt-get install ros-groovy-navigation"  another solution for nav stack error 
