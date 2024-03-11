@@ -16,7 +16,7 @@
         if="$(eval arg('ps') == 'ps3')" />
     <arg name="world_file" value="$(find vox_gazebo)/world/arena4.world" 
         if="$(eval arg('ps') == 'ps4')" />
-    <arg name="world_file" value="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/world/withballs_world.world" 
+    <arg name="world_file" value="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/world/model.world" 
         if="$(eval arg('ps') == 'arena')" />
   <include
     file="$(find gazebo_ros)/launch/empty_world.launch" >
