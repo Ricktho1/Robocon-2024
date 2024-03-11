@@ -4,7 +4,7 @@
     <!-- <arg name="namesp" default=""/> -->
     <arg name="x" default="-3"/>
     <arg name="y" default="-3.5"/>
-    <arg name="z" default="0.5"/>
+    <arg name="z" default="0.7"/>
 
    <group ns="$(arg namesp)">
         <param name="robot_description" command="cat $(find vox_description)/urdf/voxbot.urdf"/>
