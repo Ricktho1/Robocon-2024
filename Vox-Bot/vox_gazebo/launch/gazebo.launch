@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find vox_gazebo)/launch/world.launch" />
+  <include file="$(find vox_gazebo)/launch/robot_load_gazebo.launch" />  
+  <!-- <remap from="/vox/cmd_vel" to="/cmd_vel" /> -->
+</launch>

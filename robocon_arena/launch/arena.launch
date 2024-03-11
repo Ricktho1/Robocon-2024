@@ -1,0 +1,9 @@
+<launch>
+<arg name="namesp" value="vox_bot"/>
+    <!-- <include file="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/launch/gazebo.launch"/> -->
+    <include file="$(find vox_gazebo)/launch/gazebo.launch">
+                <!-- <arg name="namesp" value="$(arg namesp)"/> -->
+    </include>
+
+
+</launch>

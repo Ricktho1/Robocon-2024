@@ -1,0 +1,192 @@
+material area11/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area11.png 
+      }
+    }
+  }
+}
+material area12/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area12.PNG 
+      }
+    }
+  }
+}
+
+material area21/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area21.PNG 
+      }
+    }
+  }
+}
+material area22/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area22.PNG 
+      }
+    }
+  }
+}
+
+material area31/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area31.PNG 
+      }
+    }
+  }
+}
+material area32/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area32.PNG 
+      }
+    }
+  }
+}
+
+
+
+
+material ramp11/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp11.PNG 
+      }
+    }
+  }
+}
+material ramp12/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp12.PNG 
+      }
+    }
+  }
+}
+
+material ramp21/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp21.PNG 
+      }
+    }
+  }
+}
+material ramp22/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp22.PNG 
+      }
+    }
+  }
+}
+
+material ramp31/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp31.PNG 
+      }
+    }
+  }
+}
+material ramp32/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture ramp32.PNG 
+      }
+    }
+  }
+}
+
+material area3_base/Diffuse
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture area3_base.PNG 
+      }
+    }
+  }
+}
+
