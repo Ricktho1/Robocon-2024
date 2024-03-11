@@ -24,7 +24,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -48,7 +48,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -56,8 +56,8 @@
             <normal_map>__default__</normal_map>
           </shader>
           <script>
-            <name>ModelPreview_1::base_link::base_link_fixed_joint_lump__RIGHT_SIDE_McLoop_1_1_1_visual_1_MATERIAL_</name>
-            <uri>__default__</uri>
+            <name>ModelPreview_1::base_link::base_link_fixed_joint_lump__RIGHT_SIDE_McLoop_1_1_1_visual_2_MATERIAL_</name>
+            <uri>__default__</uri>  
           </script>
           <ambient>1 0.667 0.302 1</ambient>
           <diffuse>1 1 1 1</diffuse>
@@ -72,7 +72,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -96,7 +96,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -120,7 +120,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -144,7 +144,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -168,7 +168,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -192,7 +192,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -216,7 +216,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -240,7 +240,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -264,7 +264,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -288,7 +288,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -312,7 +312,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -336,7 +336,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -360,7 +360,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -384,7 +384,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -408,7 +408,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -432,7 +432,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -456,7 +456,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -480,7 +480,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -504,7 +504,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -528,7 +528,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -552,7 +552,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -576,7 +576,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -600,7 +600,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -624,7 +624,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl</uri>
           </mesh>
         </geometry>
         <material>
@@ -649,7 +649,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -705,7 +705,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -761,7 +761,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -817,7 +817,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -873,7 +873,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -929,7 +929,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -985,7 +985,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1041,7 +1041,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1097,7 +1097,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1153,7 +1153,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1209,7 +1209,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1265,7 +1265,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1321,7 +1321,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1377,7 +1377,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1433,7 +1433,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1489,7 +1489,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1545,7 +1545,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1601,7 +1601,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1657,7 +1657,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1713,7 +1713,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1769,7 +1769,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1825,7 +1825,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1881,7 +1881,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1937,7 +1937,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -1993,7 +1993,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -2049,7 +2049,7 @@
         <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/shashwat/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl</uri>
+            <uri>/home/shashwat/ROS_ws/Robocon/src/ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
