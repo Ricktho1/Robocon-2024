@@ -91,7 +91,7 @@
       <link name='base_link'>
         <inertial>
           <pose>0 0.649526 0.101728 0 -0 0</pose>
-          <mass>118034</mass>
+          <mass>1180</mass>
           <inertia>
             <ixx>1.19343e+06</ixx>
             <ixy>7.247e-05</ixy>
@@ -2216,155 +2216,155 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='withballs.sddf'>
+      <model name='withballs.sdf'>
         <pose>-3.62472 -0.211619 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-3.57472 -0.211619 0.2 0 -0 0</pose>
+          <pose>-3.57472 -0.211619 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone'>
-          <pose>-3.0906 -0.713569 0.2 0 -0 0</pose>
+          <pose>-3.0906 -0.713569 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_0'>
-          <pose>-2.577 -0.210338 0.2 0 -0 0</pose>
+          <pose>-2.577 -0.210338 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_1'>
-          <pose>-2.09052 -0.70497 0.2 0 -0 0</pose>
+          <pose>-2.09052 -0.70497 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_10'>
-          <pose>-4.82785 4.41892 0.2 0 -0 0</pose>
+          <pose>-4.82785 4.41892 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_11'>
-          <pose>-4.84681 4.69005 0.2 0 -0 0</pose>
+          <pose>-4.84681 4.69005 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_12'>
-          <pose>-4.80799 3.91504 0.2 0 -0 0</pose>
+          <pose>-4.80799 3.91504 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_13'>
-          <pose>-4.80804 3.62402 0.2 0 -0 0</pose>
+          <pose>-4.80804 3.62402 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_14'>
-          <pose>-4.8263 4.18383 0.2 0 -0 0</pose>
+          <pose>-4.8263 4.18383 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_15'>
-          <pose>-4.58568 4.19026 0.2 0 -0 0</pose>
+          <pose>-4.58568 4.19026 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_16'>
-          <pose>-5.0612 4.17807 0.2 0 -0 0</pose>
+          <pose>-5.0612 4.17807 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_17'>
-          <pose>-5.3125 4.16294 0.2 0 -0 0</pose>
+          <pose>-5.3125 4.16294 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_18'>
-          <pose>-4.32495 4.18868 0.2 0 -0 0</pose>
+          <pose>-4.32495 4.18868 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_19'>
-          <pose>-4.5466 4.45077 0.2 0 -0 0</pose>
+          <pose>-4.5466 4.45077 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_2'>
-          <pose>-1.58964 -0.222602 0.2 0 -0 0</pose>
+          <pose>-1.58964 -0.222602 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_20'>
-          <pose>-5.12045 4.41675 0.2 0 -0 0</pose>
+          <pose>-5.12045 4.41675 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_21'>
-          <pose>-5.05852 3.90018 0.2 0 -0 0</pose>
+          <pose>-5.05852 3.90018 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_22'>
-          <pose>-4.5189 3.89973 0.2 0 -0 0</pose>
+          <pose>-4.5189 3.89973 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_3'>
-          <pose>-1.09887 -0.712166 0.2 0 -0 0</pose>
+          <pose>-1.09887 -0.712166 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_4'>
-          <pose>-1.0704 -0.215447 0.2 0 -0 0</pose>
+          <pose>-1.0704 -0.215447 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_5'>
-          <pose>-1.57221 -0.713064 0.2 0 -0 0</pose>
+          <pose>-1.57221 -0.713064 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_6'>
-          <pose>-2.07372 -0.217664 0.2 0 -0 0</pose>
+          <pose>-2.07372 -0.217664 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_7'>
-          <pose>-2.57945 -0.713375 0.2 0 -0 0</pose>
+          <pose>-2.57945 -0.713375 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_8'>
-          <pose>-3.07442 -0.227881 0.2 0 -0 0</pose>
+          <pose>-3.07442 -0.227881 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_clone_9'>
-          <pose>-3.57733 -0.71998 0.2 0 -0 0</pose>
+          <pose>-3.57733 -0.71998 0.22 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -2374,7 +2374,7 @@
         <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
-    <model name='withballs.sddf'>
+    <model name='withballs.sdf'>
       <link name='link'>
         <inertial>
           <mass>0.35</mass>
@@ -2391,7 +2391,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>0.05 0 0.2 0 -0 0</pose>
+        <pose>0.05 0 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2488,7 +2488,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>0.534124 -0.50195 0.2 0 -0 0</pose>
+        <pose>0.534124 -0.50195 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2585,7 +2585,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>1.04772 0.001281 0.2 0 -0 0</pose>
+        <pose>1.04772 0.001281 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2682,7 +2682,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>1.5342 -0.493351 0.2 0 -0 0</pose>
+        <pose>1.5342 -0.493351 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2779,7 +2779,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.20313 4.63054 0.2 0 -0 0</pose>
+        <pose>-1.20313 4.63054 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2876,7 +2876,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.22209 4.90167 0.2 0 -0 0</pose>
+        <pose>-1.22209 4.90167 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -2973,7 +2973,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.18327 4.12666 0.2 0 -0 0</pose>
+        <pose>-1.18327 4.12666 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3070,7 +3070,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.18332 3.83564 0.2 0 -0 0</pose>
+        <pose>-1.18332 3.83564 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3167,7 +3167,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.20158 4.39545 0.2 0 -0 0</pose>
+        <pose>-1.20158 4.39545 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3264,7 +3264,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-0.960965 4.40188 0.2 0 -0 0</pose>
+        <pose>-0.960965 4.40188 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3361,7 +3361,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.43648 4.38969 0.2 0 -0 0</pose>
+        <pose>-1.43648 4.38969 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3458,7 +3458,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.68778 4.37456 0.2 0 -0 0</pose>
+        <pose>-1.68778 4.37456 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3555,7 +3555,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-0.70023 4.4003 0.2 0 -0 0</pose>
+        <pose>-0.70023 4.4003 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3652,7 +3652,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-0.92188 4.66239 0.2 0 -0 0</pose>
+        <pose>-0.92188 4.66239 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3749,7 +3749,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>2.03508 -0.010983 0.2 0 -0 0</pose>
+        <pose>2.03508 -0.010983 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3846,7 +3846,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.49573 4.62837 0.2 0 -0 0</pose>
+        <pose>-1.49573 4.62837 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -3943,7 +3943,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-1.4338 4.1118 0.2 0 -0 0</pose>
+        <pose>-1.4338 4.1118 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4040,7 +4040,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>-0.894178 4.11135 0.2 0 -0 0</pose>
+        <pose>-0.894178 4.11135 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4137,7 +4137,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>2.52585 -0.500547 0.2 0 -0 0</pose>
+        <pose>2.52585 -0.500547 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4234,7 +4234,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>2.55432 -0.003828 0.2 0 -0 0</pose>
+        <pose>2.55432 -0.003828 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4331,7 +4331,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>2.05251 -0.501445 0.2 0 -0 0</pose>
+        <pose>2.05251 -0.501445 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4428,7 +4428,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>1.551 -0.006045 0.2 0 -0 0</pose>
+        <pose>1.551 -0.006045 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4525,7 +4525,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>1.04527 -0.501756 0.2 0 -0 0</pose>
+        <pose>1.04527 -0.501756 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4622,7 +4622,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>0.5503 -0.016262 0.2 0 -0 0</pose>
+        <pose>0.5503 -0.016262 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
@@ -4719,7 +4719,7 @@
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>1</kinematic>
-        <pose>0.047387 -0.508361 0.2 0 -0 0</pose>
+        <pose>0.047387 -0.508361 0.22 0 -0 0</pose>
         <gravity>1</gravity>
         <visual name='visual'>
           <geometry>
