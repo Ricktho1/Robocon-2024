@@ -16,7 +16,7 @@
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/>
   </include>
-  <!-- <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" args="-sdf -file $(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/arena/model.sdf -model arena"/> -->
+  <!-- <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/arena1.sdf -model arena -x 0 -y 0 -z 0"/> -->
 
 
 </launch>
