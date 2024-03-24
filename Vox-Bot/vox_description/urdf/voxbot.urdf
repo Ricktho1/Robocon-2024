@@ -2,8 +2,7 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot
-  name="voxbot">
+<robot name="voxbot">
   <link name="dummy_link" />
   <joint
     name="dummy_joint"
@@ -23,7 +22,7 @@
         xyz="5.5954842047713E-17 -2.4880415231743E-16 0.0221236751880611"
         rpy="0 0 0" />
       <mass
-        value="0.465033072874443" />
+        value="13.465033072874443" />
       <inertia
         ixx="0.000844055731999061"
         ixy="-2.42538143674553E-08"
@@ -2468,7 +2467,7 @@
       <updateRate>100.0</updateRate>
     </plugin>
   </gazebo>
-<joint name="sensor_joint" type="fixed">
+  <joint name="sensor_joint" type="fixed">
     <parent link="dummy_link"/>
     <child link="sensor_link"/>
     <origin xyz="0.0 0.0 0.05" rpy="0 0 0"/>
@@ -2476,7 +2475,7 @@
 
   <link name="sensor_link"/>
  <gazebo reference="sensor_link">
-    <sensor type="ray" name="head_hokuyo_sensor">
+    <!-- <sensor type="ray" name="head_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>100</update_rate>
@@ -2504,10 +2503,10 @@
         <topicName>scan</topicName>
         <frameName>sensor_link</frameName>
       </plugin>
-    </sensor>
+    </sensor> -->
     <!--
       Sorry No gpu in my current system-->
-    <!-- <sensor type="gpu_ray" name="head_hokuyo_sensor">
+    <sensor type="gpu_ray" name="head_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>100</update_rate>
@@ -2535,7 +2534,7 @@
         <topicName>scan</topicName>
         <frameName>sensor_link</frameName>
       </plugin>
-    </sensor>  -->
+    </sensor> 
 
 
   </gazebo>
@@ -2550,8 +2549,8 @@
       <camera name="head">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
-          <height>800</height>
+          <width>1920</width>
+          <height>1080</height>
           <format>R8G8B8</format>
         </image>
         <clip>
@@ -2583,6 +2582,214 @@
       </plugin>
     </sensor>
   </gazebo>
+
+
+
+
+
+
+
+  <!-- plugin -->
+  <gazebo>
+      <plugin name="conveyor_belt_plugin" filename="libROSConveyorBeltPlugin.so">
+          <robot_namespace>/vox</robot_namespace>
+          <link>belt_moving</link>
+          <power>0</power>
+          <update_rate>10</update_rate>
+          <max_velocity>0.2</max_velocity>
+      </plugin>
+  </gazebo>
+
+
+    <!-- <gazebo>
+      <plugin name="conveyor_belt_plugin" filename="libROSConveyorBeltPlugin.so">
+          <robot_namespace>/vox</robot_namespace>
+          <link>belt_moving_up</link>
+          <power>0</power>
+          <update_rate>10</update_rate>
+          <max_velocity>0.2</max_velocity>
+      </plugin>
+  </gazebo> -->
+
+
+
+
+	<link name="belt_moving">
+		<inertial>
+			<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+			<mass value="0.1"/>
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+		</inertial>
+		<visual>
+			<origin xyz="0.0 0.0005 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<box size="0.4 0.001 0.4"/>
+			</geometry>
+			<material name="test">
+				<color rgba="1 0 1 1" />
+			</material>
+		</visual>
+		<collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.01</mu>
+            <mu2>0.01</mu2>
+          </ode>
+        </friction>
+      </surface>
+			<origin xyz="0.0 0.0005 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<box size="0.4 0.001 0.4"/>
+			</geometry>
+		</collision>
+	</link>
+
+
+<link name="conv_link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.1" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.01 0.4"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.1 0.1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.01 0.4"/>
+      </geometry>
+    </collision>
+  </link>
+  
+  <joint name="conv_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="conv_link"/>
+    <origin xyz="-0.1 -0.1414 -0.1" rpy="0.785 0.785 0"/>
+  </joint>
+
+
+	<joint name="belt_joint" type="prismatic">
+		<origin xyz="0.0 -0.005 0.0" rpy="0.0 0.0 0.0"/>
+		<parent link="conv_link"/>
+		<child link="belt_moving"/>
+		<axis xyz="0 0 1"/>
+		<limit lower="0.0" upper="0.7" effort="100000000" velocity="100000"/>
+	</joint>
+
+
+	<link name="belt_moving_up">
+		<inertial>
+			<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+			<mass value="0.1"/>
+			<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+		</inertial>
+		<visual>
+			<origin xyz="0.0 0.0005 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<box size="0.4 0.001 0.4"/>
+			</geometry>
+			<material name="test">
+				<color rgba="1 0 1 1" />
+			</material>
+		</visual>
+		<collision>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.01</mu>
+            <mu2>0.01</mu2>
+          </ode>
+        </friction>
+      </surface>
+			<origin xyz="0.0 0.0005 0" rpy="0.0 0.0 0.0"/>
+			<geometry>
+				<box size="0.4 0.001 0.4"/>
+			</geometry>
+		</collision>
+	</link>
+
+
+<link name="conv_link_up">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.1" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.01 0.4"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.1 0.1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.01 0.4"/>
+      </geometry>
+    </collision>
+  </link>
+
+
+  <joint name="conv_joint_up" type="fixed">
+    <parent link="conv_link"/>
+    <child link="conv_link_up"/>
+    <origin xyz="0 -0.2 0" rpy="0 0 0"/>
+  </joint>
+
+
+	<joint name="belt_joint_up" type="fixed">
+		<origin xyz="0.0 -0.19 0.0" rpy="0.0 0.0 0.0"/>
+		<parent link="belt_moving"/>
+		<child link="belt_moving_up"/>
+		<!-- <axis xyz="0 0 1"/>
+		<limit lower="0.0" upper="0.3" effort="1000" velocity="1000"/> -->
+	</joint>
+
+
+
+<!-- ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
 
   <link name="cam_link">
     <inertial>
@@ -2625,8 +2832,8 @@
   <joint name="cube_joint" type="fixed">
     <parent link="base_link"/>
     <child link="cam_link"/>
-    <origin xyz="0 -0.3 0" rpy="1.57 -0.785 0"/>
+    <origin xyz="0 -0.65 0" rpy="1.57 -0.785 0"/>
   </joint>
 
-
+<!-- sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
 </robot>
