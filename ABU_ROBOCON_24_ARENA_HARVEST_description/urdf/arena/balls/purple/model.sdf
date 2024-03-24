@@ -1,8 +1,9 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='purple.sdf'>
+  <model name='b_ball1'>
     <link name='link'>
       <inertial>
+        <pose>0 0 0 0 -0 0</pose>
         <mass>0.35</mass>
         <inertia>
           <ixx>0.035</ixx>
@@ -12,14 +13,14 @@
           <iyz>0</iyz>
           <izz>0.035</izz>
         </inertia>
-        <pose>0 0 0 0 -0 0</pose>
       </inertial>
       <self_collide>0</self_collide>
       <enable_wind>0</enable_wind>
-      <kinematic>1</kinematic>
+      <kinematic>0</kinematic>
       <pose>0 0 0 0 -0 0</pose>
       <gravity>1</gravity>
-      <visual name='visual'>
+      <visual name='link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
         <geometry>
           <sphere>
             <radius>0.095</radius>
@@ -27,8 +28,7 @@
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Grey</name>
-            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>ModelPreview_1::link::link_visual_MATERIAL_</name>
           </script>
           <shader type='normal_map_object_space'>
             <normal_map>__default__</normal_map>
@@ -38,11 +38,10 @@
           <specular>0.01 0.01 0.01 1</specular>
           <emissive>0 0 0 1</emissive>
         </material>
-        <pose>0 0 0 0 -0 0</pose>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
       </visual>
-      <collision name='collision'>
+      <collision name='link_collision'>
         <laser_retro>0</laser_retro>
         <max_contacts>10</max_contacts>
         <pose>0 0 0 0 -0 0</pose>
