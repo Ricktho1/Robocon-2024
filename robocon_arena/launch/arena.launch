@@ -47,49 +47,46 @@
         <node name="ball12_spawn_purple" pkg="gazebo_ros" type="spawn_model" output="screen"
             args="-sdf -param /balls/p_ball_description -model p_ball12 -x -3.585 -y -0.25 -z 0.5" />
 
+
         <!-- Add new blue balls for diamond shape -->
-        <node name="ball21_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball21 -x -3 -y 7 -z 0.5" />
-        <node name="ball22_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball22 -x -2 -y 8 -z 0.5" />
-        <node name="ball23_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball23 -x -1 -y 9 -z 0.5" />
-        <node name="ball24_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball24 -x 0 -y 10 -z 0.5" />
-        <node name="ball25_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball25 -x 1 -y 11 -z 0.5" />
-        <node name="ball26_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball26 -x 2 -y 12 -z 0.5" />
-        <node name="ball27_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball27 -x 3 -y 11 -z 0.5" />
-        <node name="ball28_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball28 -x 4 -y 10 -z 0.5" />
-        <node name="ball29_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball29 -x 5 -y 9 -z 0.5" />
-        <node name="ball30_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball30 -x 6 -y 8 -z 0.5" />
-        <node name="ball31_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball31 -x 7 -y 7 -z 0.5" />
-        <node name="ball32_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball32 -x 6 -y 6 -z 0.5" />
-        <node name="ball33_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball33 -x 5 -y 5 -z 0.5" />
-        <node name="ball34_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball34 -x 4 -y 4 -z 0.5" />
-        <node name="ball35_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball35 -x 3 -y 3 -z 0.5" />
-        <node name="ball36_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball36 -x 2 -y 2 -z 0.5" />
-        <node name="ball37_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball37 -x 1 -y 1 -z 0.5" />
-        <node name="ball38_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball38 -x 0 -y 2 -z 0.5" />
-        <node name="ball39_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball39 -x -1 -y 3 -z 0.5" />
-        <node name="ball40_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball40 -x -2 -y 4 -z 0.5" />
-        <node name="ball41_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
-            args="-sdf -param /balls/b_ball_description -model b_ball41 -x -3 -y 5 -z 0.5" />
+            <node name="ball21_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball21 -x -4.55 -y 4.0 -z 0.5" />
+            <node name="ball22_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball22 -x -4.7 -y 3.85 -z 0.5" />
+            <node name="ball23_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball23 -x -4.7 -y 4.15 -z 0.5" />
+            <node name="ball24_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball24 -x -4.85 -y 3.7 -z 0.5" />
+            <node name="ball25_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball25 -x -4.85 -y 4.0 -z 0.5" />
+            <node name="ball26_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball26 -x -4.85 -y 4.3 -z 0.5" />
+            <node name="ball27_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball27 -x -5.0 -y 3.55 -z 0.5" />
+            <node name="ball28_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball28 -x -5.0 -y 3.85 -z 0.5" />
+            <node name="ball29_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball29 -x -5.0 -y 4.15 -z 0.5" />
+            <node name="ball30_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball30 -x -5.0 -y 4.45 -z 0.5" />
+            <node name="ball31_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball31 -x -5.15 -y 3.7 -z 0.5" />
+            <node name="ball32_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball32 -x -5.15 -y 4.0 -z 0.5" />
+            <node name="ball33_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball33 -x -5.15 -y 4.3 -z 0.5" />
+            <node name="ball34_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball34 -x -5.3 -y 3.85 -z 0.5" />
+            <node name="ball35_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/b_ball_description -model b_ball35 -x -5.3 -y 4.15 -z 0.5" />
+            <node name="ball36_spawn_blue" pkg="gazebo_ros" type="spawn_model" output="screen"
+                args="-sdf -param /balls/p_ball_description -model b_ball36 -x -5.45 -y 4.0 -z 0.5" />
+<!-- test ball -->
+
+
+            <node name="test_ball" pkg="gazebo_ros" type="spawn_model" output="screen"
+                            args="-sdf -param /balls/p_ball_description -model test_ball -x -4 -y -4.5 -z 1.3" />
+
 
 
     </group>
