@@ -1,0 +1,13 @@
+material area11{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture area11.jpg
+                scale 1 1
+            }
+        }   
+    }
+}
