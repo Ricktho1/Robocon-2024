@@ -21,6 +21,7 @@
     <node name="vox_odom" pkg="vox_odom" type="odom_publisher"/>
   
   </group>
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+  <param name="robot_description" command="cat $(find vox_description)/urdf/voxbot.urdf"/>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
   <!-- <node name="dot_omni_control" pkg="dot_control" type="omnidrive" output="screen" ns="dot"/> -->
 </launch>
