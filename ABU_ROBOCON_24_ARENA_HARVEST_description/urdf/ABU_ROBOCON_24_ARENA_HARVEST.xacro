@@ -1,0 +1,739 @@
+<?xml version="1.0" ?>
+<robot name="ABU_ROBOCON_24_ARENA_HARVEST" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/ABU_ROBOCON_24_ARENA_HARVEST.trans" />
+<!-- <xacro:include filename="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/ABU_ROBOCON_24_ARENA_HARVEST.gazebo" /> -->
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 -4.0 0.07" rpy="0 0 0"/>
+    <mass value="1177.5"/>
+    <inertia ixx="1572.207812" iyy="8.340625" izz="1576.132812" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="BARRIER__1__McLoop_1_1_1">
+  <inertial>
+    <origin xyz="0.0 2.0 0.07499999999999998" rpy="0 0 0"/>
+    <mass value="1569.9999999999998"/>
+    <inertia ixx="2098.566667" iyy="13.410417" izz="2101.510417" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 2.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 2.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__1__McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="BARRIER__2__McLoop_1_1_1">
+  <inertial>
+    <origin xyz="6.984919309616092e-17 2.0000000000000018 0.12500000000000003" rpy="0 0 0"/>
+    <mass value="1569.999999999999"/>
+    <inertia ixx="2098.566667" iyy="13.410417" izz="2101.510417" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -2.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area3">
+      <color rgba="0.996 0.82 0.255 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -2.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/BARRIER__2__McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="silooo_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="-1.1829830121932029e-06 -4.788801278188259e-06 0.11035659803466968" rpy="0 0 0"/>
+    <mass value="3.6566642393739603"/>
+    <inertia ixx="0.1014" iyy="0.1014" izz="0.041266" ixy="-0.0" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -2.5 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -2.5 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="silooo_McLoop__1__1_1_1">
+  <inertial>
+    <origin xyz="-1.1829834056145412e-06 -4.788497792507229e-06 0.11035659104565632" rpy="0 0 0"/>
+    <mass value="3.6566642393486806"/>
+    <inertia ixx="0.1014" iyy="0.1014" izz="0.041266" ixy="-0.0" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -3.25 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -3.25 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="silooo_McLoop__2__1_1_1">
+  <inertial>
+    <origin xyz="-1.1829833288443316e-06 -4.788168492808609e-06 0.11035659226688249" rpy="0 0 0"/>
+    <mass value="3.656664239341227"/>
+    <inertia ixx="0.1014" iyy="0.1014" izz="0.041266" ixy="-0.0" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -4.0 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -4.0 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="silooo_McLoop__3__1_1_1">
+  <inertial>
+    <origin xyz="-1.1829833537597174e-06 -4.788527142807197e-06 0.11035659226714217" rpy="0 0 0"/>
+    <mass value="3.65666423934551"/>
+    <inertia ixx="0.1014" iyy="0.1014" izz="0.041266" ixy="-0.0" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -4.75 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -4.75 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__3__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="silooo_McLoop__4__1_1_1">
+  <inertial>
+    <origin xyz="-1.182982609032636e-06 -4.787895652391683e-06 0.11035659104600876" rpy="0 0 0"/>
+    <mass value="3.6566642394483395"/>
+    <inertia ixx="0.1014" iyy="0.1014" izz="0.041266" ixy="-0.0" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -5.5 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -5.5 -0.345" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/silooo_McLoop__4__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Body10_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="-1.3125 -4.440892098500626e-16 -0.044999999999999984" rpy="0 0 0"/>
+    <mass value="8242.499999999996"/>
+    <inertia ixx="10996.86875" iyy="4739.866797" izz="15722.998047" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.125 -4.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area3">
+      <color rgba="0.996 0.82 0.255 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.125 -4.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Body10_McLoop__1__1_1_1">
+  <inertial>
+    <origin xyz="1.3125 8.881784197001252e-16 -0.044999999999999984" rpy="0 0 0"/>
+    <mass value="8242.499999999996"/>
+    <inertia ixx="10996.86875" iyy="4739.866797" izz="15722.998047" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125 -4.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area3">
+      <color rgba="0.996 0.82 0.255 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.125 -4.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop__4__1_1_1">
+  <inertial>
+    <origin xyz="0.33333333333333304 8.881784197001252e-16 -0.016666666666666663" rpy="0 0 0"/>
+    <mass value="1569.9999999999989"/>
+    <inertia ixx="2094.205556" iyy="88.094444" izz="2180.555556" ixy="0.0" iyz="0.0" ixz="4.361111"/>
+  </inertial>
+  <visual>
+    <origin xyz="-2.75 -4.0 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area3">
+      <color rgba="0.996 0.82 0.255 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-2.75 -4.0 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__4__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop__3__1_1_1">
+  <inertial>
+    <origin xyz="-0.3333333333333339 -4.440892098500626e-16 -0.016666666666666663" rpy="0 0 0"/>
+    <mass value="1569.9999999999989"/>
+    <inertia ixx="2094.205556" iyy="88.094444" izz="2180.555556" ixy="-0.0" iyz="0.0" ixz="-4.361111"/>
+  </inertial>
+  <visual>
+    <origin xyz="2.75 -4.0 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area3">
+      <color rgba="0.996 0.82 0.255 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="2.75 -4.0 -0.2" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__3__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="l_water_McLoop__1__1_1_1">
+  <inertial>
+    <origin xyz="0.0 -4.258685737976783 -0.08318822553897182" rpy="0 0 0"/>
+    <mass value="4733.549999999999"/>
+    <inertia ixx="100166.365646" iyy="114646.489317" izz="214726.570579" ixy="0.0" iyz="-892.139659" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -6.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="fence_overall"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -6.0 -0.245" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Body10_McLoop__2__1_1_1">
+  <inertial>
+    <origin xyz="0.0 0.0 -0.024999999999999967" rpy="0 0 0"/>
+    <mass value="18840.0"/>
+    <inertia ixx="25123.925" iyy="226083.925" izz="251200.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -4.0 -0.145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -4.0 -0.145" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/Body10_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop__5__1_1_1">
+  <inertial>
+    <origin xyz="0.26 -0.3333333333333326 -0.01716266666666666" rpy="0 0 0"/>
+    <mass value="392.4999999999998"/>
+    <inertia ixx="22.023611" iyy="32.926389" izz="54.513889" ixy="0.0" iyz="-1.090278" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-1.4375 -2.0 -0.200496" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-1.4375 -2.0 -0.200496" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__5__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="-0.2599999999999998 -0.3333333333333339 -0.01716266666666666" rpy="0 0 0"/>
+    <mass value="392.49999999999983"/>
+    <inertia ixx="22.023611" iyy="32.926389" izz="54.513889" ixy="0.0" iyz="-1.090278" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="1.4375 -2.0 -0.200496" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="1.4375 -2.0 -0.200496" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="l_water_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="2.0622596153846153 1.5867788461538461 -0.04259615384615384" rpy="0 0 0"/>
+    <mass value="816.4"/>
+    <inertia ixx="172.127368" iyy="1129.376371" izz="1291.321257" ixy="11.495485" iyz="-8.685478" ixz="3.630153"/>
+  </inertial>
+  <visual>
+    <origin xyz="6.0 -0.0 -0.215" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="fence_around_water"/>
+  </visual>
+  <collision>
+    <origin xyz="6.0 -0.0 -0.215" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="l_water_McLoop__2__1_1_1">
+  <inertial>
+    <origin xyz="-2.0622596153846153 1.5867788461538461 -0.04259615384615384" rpy="0 0 0"/>
+    <mass value="816.4"/>
+    <inertia ixx="172.127368" iyy="1129.376371" izz="1291.321257" ixy="-11.495485" iyz="-8.685478" ixz="-3.630153"/>
+  </inertial>
+  <visual>
+    <origin xyz="-6.0 -0.0 -0.215" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="fence_around_water"/>
+  </visual>
+  <collision>
+    <origin xyz="-6.0 -0.0 -0.215" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/l_water_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RIGHT_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="2.8295698949649846 -0.23429276262740584 -0.04937730075200987" rpy="0 0 0"/>
+    <mass value="24078.192461986284"/>
+    <inertia ixx="27082.630304" iyy="72773.579005" izz="99763.473283" ixy="3654.465171" iyz="165.301374" ixz="31.576832"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.125 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LEFT_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="-2.8295698949649846 -0.23429276262740584 -0.04937730075200987" rpy="0 0 0"/>
+    <mass value="24078.192461986284"/>
+    <inertia ixx="27082.630304" iyy="72773.579005" izz="99763.473283" ixy="-3654.465171" iyz="165.301374" ixz="-31.576832"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.125 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area2">
+      <color rgba="0.314 0.62 0.184 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.125 -0.0 -0.12" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RIGHT_SIDE_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="2.937500000479632 1.5835821542964368e-10 -0.044999999999999596" rpy="0 0 0"/>
+    <mass value="9223.749998493955"/>
+    <inertia ixx="12300.254946" iyy="26532.212943" izz="38828.62466" ixy="4e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.125 4.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.125 4.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_SIDE_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LEFT_SIDE_McLoop_1_1_1">
+  <inertial>
+    <origin xyz="-2.937500000479655 1.5834578093176788e-10 -0.045000000000000005" rpy="0 0 0"/>
+    <mass value="9223.749998493955"/>
+    <inertia ixx="12300.254946" iyy="26532.212943" izz="38828.62466" ixy="-4e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.125 4.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.125 4.0 -0.07" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_SIDE_McLoop_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop__1__1_1_1">
+  <inertial>
+    <origin xyz="-2.5 -0.33333333333333304 0.008333333333333345" rpy="0 0 0"/>
+    <mass value="392.5"/>
+    <inertia ixx="22.023611" iyy="32.926389" izz="54.513889" ixy="-0.0" iyz="-1.090278" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="3.0 2.0 -0.075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="3.0 2.0 -0.075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__1__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RAMP2_McLoop__2__1_1_1">
+  <inertial>
+    <origin xyz="2.5 -0.3333333333333335 0.008333333333333318" rpy="0 0 0"/>
+    <mass value="392.49999999999994"/>
+    <inertia ixx="22.023611" iyy="32.926389" izz="54.513889" ixy="0.0" iyz="-1.090278" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-3.0 2.0 -0.075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-3.0 2.0 -0.075" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RAMP2_McLoop__2__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="RIGHT_PLANT_STAND_1_1_1">
+  <inertial>
+    <origin xyz="2.375000000000121 0.125 -0.039999999999999994" rpy="0 0 0"/>
+    <mass value="346.7310296018682"/>
+    <inertia ixx="2.07898" iyy="310.150463" izz="312.021405" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 6.0 -0.115" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 6.0 -0.115" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/RIGHT_PLANT_STAND_1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LEFT_PLANT_STAND__1_1_1">
+  <inertial>
+    <origin xyz="-2.3750000000001217 0.125 -0.039999999999999994" rpy="0 0 0"/>
+    <mass value="346.7310296018682"/>
+    <inertia ixx="2.07898" iyy="310.150463" izz="312.021405" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 6.0 -0.115" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="area1">
+      <color rgba="1 0.667 0.302 1.000"/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 6.0 -0.115" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://ABU_ROBOCON_24_ARENA_HARVEST_description/meshes/LEFT_PLANT_STAND__1_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid 5" type="fixed">
+  <origin xyz="0.0 -2.0 0.07" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="BARRIER__1__McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="0.0 4.0 0.05" rpy="0 0 0"/>
+  <parent link="BARRIER__1__McLoop_1_1_1"/>
+  <child link="BARRIER__2__McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 7" type="fixed">
+  <origin xyz="0.0 0.5 0.225" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="silooo_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 8" type="fixed">
+  <origin xyz="0.0 1.25 0.225" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="silooo_McLoop__1__1_1_1"/>
+</joint>
+
+<joint name="Rigid 9" type="fixed">
+  <origin xyz="0.0 2.0 0.225" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="silooo_McLoop__2__1_1_1"/>
+</joint>
+
+<joint name="Rigid 10" type="fixed">
+  <origin xyz="0.0 2.75 0.225" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="silooo_McLoop__3__1_1_1"/>
+</joint>
+
+<joint name="Rigid 11" type="fixed">
+  <origin xyz="0.0 3.5 0.225" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="silooo_McLoop__4__1_1_1"/>
+</joint>
+
+<joint name="Rigid 12" type="fixed">
+  <origin xyz="-0.125 2.0 0.125" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="Body10_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 13" type="fixed">
+  <origin xyz="0.125 2.0 0.125" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="Body10_McLoop__1__1_1_1"/>
+</joint>
+
+<joint name="Rigid 14" type="fixed">
+  <origin xyz="2.625 0.0 -0.045" rpy="0 0 0"/>
+  <parent link="Body10_McLoop__1__1_1_1"/>
+  <child link="RAMP2_McLoop__4__1_1_1"/>
+</joint>
+
+<joint name="Rigid 15" type="fixed">
+  <origin xyz="-2.625 0.0 -0.045" rpy="0 0 0"/>
+  <parent link="Body10_McLoop_1_1_1"/>
+  <child link="RAMP2_McLoop__3__1_1_1"/>
+</joint>
+
+<joint name="Rigid 16" type="fixed">
+  <origin xyz="0.0 4.0 0.125" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="l_water_McLoop__1__1_1_1"/>
+</joint>
+
+<joint name="Rigid 17" type="fixed">
+  <origin xyz="0.0 2.0 0.025" rpy="0 0 0"/>
+  <parent link="BARRIER__2__McLoop_1_1_1"/>
+  <child link="Body10_McLoop__2__1_1_1"/>
+</joint>
+
+<joint name="Rigid 18" type="fixed">
+  <origin xyz="1.3125 -2.0 -0.044504" rpy="0 0 0"/>
+  <parent link="Body10_McLoop__1__1_1_1"/>
+  <child link="RAMP2_McLoop__5__1_1_1"/>
+</joint>
+
+<joint name="Rigid 19" type="fixed">
+  <origin xyz="-1.3125 -2.0 -0.044504" rpy="0 0 0"/>
+  <parent link="Body10_McLoop_1_1_1"/>
+  <child link="RAMP2_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 20" type="fixed">
+  <origin xyz="-6.0 -6.0 -0.03" rpy="0 0 0"/>
+  <parent link="l_water_McLoop__1__1_1_1"/>
+  <child link="l_water_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 21" type="fixed">
+  <origin xyz="6.0 -6.0 -0.03" rpy="0 0 0"/>
+  <parent link="l_water_McLoop__1__1_1_1"/>
+  <child link="l_water_McLoop__2__1_1_1"/>
+</joint>
+
+<joint name="Rigid 22" type="fixed">
+  <origin xyz="0.125 2.0 0.05" rpy="0 0 0"/>
+  <parent link="BARRIER__1__McLoop_1_1_1"/>
+  <child link="RIGHT_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 23" type="fixed">
+  <origin xyz="-0.125 2.0 0.05" rpy="0 0 0"/>
+  <parent link="BARRIER__1__McLoop_1_1_1"/>
+  <child link="LEFT_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 24" type="fixed">
+  <origin xyz="0.125 -4.0 0.07" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="RIGHT_SIDE_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 25" type="fixed">
+  <origin xyz="-0.125 -4.0 0.07" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="LEFT_SIDE_McLoop_1_1_1"/>
+</joint>
+
+<joint name="Rigid 26" type="fixed">
+  <origin xyz="-2.875 -2.0 -0.045" rpy="0 0 0"/>
+  <parent link="LEFT_McLoop_1_1_1"/>
+  <child link="RAMP2_McLoop__1__1_1_1"/>
+</joint>
+
+<joint name="Rigid 27" type="fixed">
+  <origin xyz="2.875 -2.0 -0.045" rpy="0 0 0"/>
+  <parent link="RIGHT_McLoop_1_1_1"/>
+  <child link="RAMP2_McLoop__2__1_1_1"/>
+</joint>
+
+<joint name="Rigid 28" type="fixed">
+  <origin xyz="0.0 -12.0 -0.13" rpy="0 0 0"/>
+  <parent link="l_water_McLoop__1__1_1_1"/>
+  <child link="RIGHT_PLANT_STAND_1_1_1"/>
+</joint>
+
+<joint name="Rigid 29" type="fixed">
+  <origin xyz="0.0 -12.0 -0.13" rpy="0 0 0"/>
+  <parent link="l_water_McLoop__1__1_1_1"/>
+  <child link="LEFT_PLANT_STAND__1_1_1"/>
+</joint>
+
+</robot>

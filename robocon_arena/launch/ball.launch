@@ -1,0 +1,10 @@
+<launch>
+<pram name="namesp" value="ball"/>
+<arg name="ball_description" value="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/urdf/arena/balls"/>
+    <!-- <include file="$(find ABU_ROBOCON_24_ARENA_HARVEST_description)/launch/gazebo.launch"/> -->
+    <include file="$(find vox_gazebo)/launch/gazebo.launch">
+                <arg name="namesp" value="$(arg namesp)"/>
+    </include>
+
+
+</launch>
